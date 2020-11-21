@@ -20,8 +20,7 @@ Email                : un-habitat-gltn@un.org
 """
 import unittest
 
-from stdm_config.config_serializer import StdmConfigurationReader
-from stdm_config.stdm_configuration import StdmConfiguration
+from stdm_config import StdmConfigurationReader, StdmConfiguration
 from stdm_config.columns import GeometryColumn
 from .utils import test_config_file
 
