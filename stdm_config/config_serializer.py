@@ -220,7 +220,7 @@ class ProfileSerializer(object):
             LOGGER.debug('Empty profile name. Profile will not be loaded.')
 
             return None
-        
+
         profile = Profile(str(profile_name), configuration)
 
         # Set description
