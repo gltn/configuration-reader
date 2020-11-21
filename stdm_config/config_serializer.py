@@ -220,8 +220,7 @@ class ProfileSerializer(object):
             LOGGER.debug('Empty profile name. Profile will not be loaded.')
 
             return None
-
-        # TODO: Remove unicode
+        
         profile = Profile(str(profile_name), configuration)
 
         # Set description
